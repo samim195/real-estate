@@ -1,0 +1,62 @@
+.layer3div {
+    position: relative;
+    top: 10px;
+}
+
+.lay1 {
+    text-align: left;
+    font-size: 40px;
+    color:peru;
+    font-family: serif;
+    padding-left: 150px;
+}
+
+.lay2 {
+    text-align: centre;
+    position: relative;
+    font-size: 40px;
+    color:peru;
+    overflow: visible;
+    top: -110px;
+}
+
+.lay3 {
+    text-align: right;
+    position: relative;
+    font-size: 40px;
+    color:peru;
+    right: 150px;
+    top: -200px;
+}
+
+.lay4 {
+    text-align: left;
+    padding-left: 200px;
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: -150px;
+    font-family: serif;
+}
+
+.lay5 {
+    text-align: left;
+    padding-left: 200px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    color: black;
+    position: relative;
+    top: -250px;
+    font-family: serif;
+    padding-top: 70px;
+}
+
+.image3 {
+    display: block;
+    width: 30%;
+    height: 25%;
+    position: relative;
+    left: 850px;
+    bottom: 700px;
+    
+}

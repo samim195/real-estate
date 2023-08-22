@@ -1,0 +1,9 @@
+.watanname{
+    font-size: 50px;
+}
+
+.headerposition {
+    position: relative;
+    right: -50px;
+    float: left;
+}
