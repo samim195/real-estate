@@ -1,23 +1,26 @@
 .layer3div {
     position: relative;
-    top: 10px;
+    top: 100px;
 }
 
 .lay1 {
+    position: relative;
     text-align: left;
     font-size: 40px;
     color:peru;
     font-family: serif;
-    padding-left: 150px;
+    left: 200px;
 }
 
 .lay2 {
-    text-align: centre;
     position: relative;
+    text-align: centre;
+    left: 600px;
+    top: -110px;
     font-size: 40px;
     color:peru;
     overflow: visible;
-    top: -110px;
+
 }
 
 .lay3 {
@@ -25,38 +28,39 @@
     position: relative;
     font-size: 40px;
     color:peru;
-    right: 150px;
+    right: 300px;
     top: -200px;
 }
 
 .lay4 {
     text-align: left;
-    padding-left: 200px;
+    inherits: false;
+    left: 150px;
+    bottom: 150px;
     font-size: 50px;
     color: black;
     position: relative;
-    top: -150px;
     font-family: serif;
 }
-
+ 
 .lay5 {
     text-align: left;
-    padding-left: 200px;
+    left: 100px;
     font-size: 20px;
     padding-bottom: 100px;
     color: black;
     position: relative;
-    top: -250px;
+    bottom: 200px;
     font-family: serif;
     padding-top: 70px;
 }
 
 .image3 {
     display: block;
-    width: 30%;
-    height: 25%;
+    width: 40%;
+    height: 30%;
     position: relative;
-    left: 850px;
+    left: 800px;
     bottom: 700px;
     
 }
