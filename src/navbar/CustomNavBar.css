@@ -7,7 +7,7 @@
     padding-left: 30px;
     text-decoration: none;
     right: 0px; */
-    position:relative;
+
     padding-left: 30px;
     color: black;
     font-size: 25px;
@@ -17,5 +17,6 @@
     position: fixed;
     right: 200px;
     top: 35px;
+    z-index: 70;
 }
 

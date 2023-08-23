@@ -1,9 +1,15 @@
-.watanname{
+.watanname {
     font-size: 50px;
+    position: relative;
+    left: 40px;
 }
 
 .headerposition {
     position: fixed;
     top: -10px;
-    left: 50px;
+    z-index: 40;
+    width: 100%;
+    background-color: rgb(225, 245, 254);
+    height: 12%;
 }
+
