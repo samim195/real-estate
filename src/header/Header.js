@@ -8,7 +8,7 @@ import '../navbar/CustomNavBar.css';
 function Header() {
   return (
     <div className='headerposition'>
-      <h1 className='watanname'>Watan Properties</h1>
+      <h1><a className='watanname' href="/">Watan Properties</a></h1>
       <CustomNavBar></CustomNavBar>
     </div>
   )
