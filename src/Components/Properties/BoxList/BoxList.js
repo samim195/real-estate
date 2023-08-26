@@ -19,7 +19,7 @@ export default function BoxList() {
     ];
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} justifyContent={"center"} sx={{ padding:'70px', left:'100px'}}>
             {images.map((image) => (
                 <Grid key={image.id} item xs={12} sm={4}>
                 <img 

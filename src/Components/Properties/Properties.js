@@ -7,7 +7,10 @@ function Properties() {
   return (
     <div>
     <SearchBox></SearchBox>
-    <BoxList></BoxList>
+    <div className=''>
+    <BoxList ></BoxList>
+    </div>
+  
     </div>
   );
 }
