@@ -9,18 +9,17 @@
     font-size: 40px;
     color:peru;
     font-family: serif;
-    left: 200px;
+    padding: 0 150px;
 }
 
 .lay2 {
     position: relative;
     text-align: centre;
-    left: 600px;
     top: -110px;
     font-size: 40px;
     color:peru;
     overflow: visible;
-
+    padding: 0 500px;
 }
 
 .lay3 {
@@ -28,8 +27,8 @@
     position: relative;
     font-size: 40px;
     color:peru;
-    right: 300px;
     top: -200px;
+    padding: 0 200px;
 }
 
 .lay4 {

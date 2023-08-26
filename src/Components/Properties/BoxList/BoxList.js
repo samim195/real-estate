@@ -19,17 +19,10 @@ export default function BoxList() {
     ];
 
     return (
-        <Grid container spacing={2} justifyContent={"center"} sx={{ padding:'70px', left:'100px'}}>
+        <Grid container spacing={2} justifyContent={"center"} sx={{ padding:'10px 70px'}}>
             {images.map((image) => (
-                <Grid key={image.id} item xs={12} sm={4}>
-                <img 
-                src={image.src}
-                style={{
-                    width: '80%',
-                    height: '70%',
-                    marginTop: '150px'
-                }}
-                />
+                <Grid key={image.id} item xs={12} sm={4} sx={{ display:'flex', justifyContent: 'center'}}>
+                <img src={image.src} style={{ width: '80%', height: '70%', marginTop: '150px' }}/>
             </Grid>
             ))}
         </Grid>

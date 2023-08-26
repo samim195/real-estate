@@ -1,6 +1,5 @@
 import React from 'react'
 import './layer3.css'
-import Image from 'react-bootstrap/Image';
 import pc1 from './pc1.jpg'
 
 function Layer3 () {
