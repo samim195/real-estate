@@ -1,6 +1,6 @@
 .searchBox {
     position: relative;
-    top: 200px;
+    top: 120px;
     left: 350px;
 }
 
@@ -10,4 +10,9 @@
     top: -50px;
     left: 520px;
 
+}
+
+.boxSx {
+    position: absolute;
+    left: 100px;
 }
