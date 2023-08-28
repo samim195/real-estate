@@ -1,20 +1,21 @@
 .apt {
     height: 600px;
     width: 100%;
-    z-index: 1;
+
     position: relative;
     top: 100px;
 
 }
 
 .bkmsg {
-    color: white;
+    color: black;
     font-family: serif;
     font-size: 40px;
     position: absolute;
     left: 300px;
     top: 50px;
     text-align: left;
+    z-index: 10;
     /* float: left;
     color: white;
     font-family: serif;

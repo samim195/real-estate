@@ -18,10 +18,14 @@ export default function RegisterForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Email: " + formData.email + " Password: " + formData.password);
-        setTimeout(() => {
-            setSuccessMessage("Successfully Registered! You can now login");
-            navigate('/login');
-        }, 1000);
+        if(formData.email == "sk@hotmail.com") {
+            setSuccessMessage("This email is also registered to an existing user.")
+        } else {
+            setTimeout(() => {
+                setSuccessMessage("Successfully Registered! You can now login");
+                navigate('/login');
+            }, 1000);
+        }
     };
 
     const handleChange = (e) => {

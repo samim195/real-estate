@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import { Paper, TextField, Button } from '@mui/material';
-import {useNavigate} from 'react-router-dom';
+import {useNavigate, useLocation} from 'react-router-dom';
 
 export default function Login() {
     const naviate = useNavigate();
@@ -16,10 +16,15 @@ export default function Login() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Email: " + formData.email + " Password: " + formData.password);
-        setTimeout(() => {
-            setSuccessMessage("Successfully logged in!");
-            naviate('/');
-        }, 1000);
+        // if (formData.email == "sk@hotmail.com" && formData.password == "password") {
+            setTimeout(() => {
+                setSuccessMessage("Successfully logged in!");
+                naviate('/myproperties', { state: { email: formData.email}});
+            }, 1000);
+        // } else {
+        //     setSuccessMessage("Incorrect email or password, please try again with the correct information.")
+        // }
+
     };
 
     const handleChange = (e) => {

@@ -1,4 +1,4 @@
-import HomeImage from '../../CustomImage/CustomImageApt.js';
+import HomeImage from '../../HomeMain/CustomImageApt.js';
 import Layer4 from './Lay4.js';
 import { Grid } from '@mui/material';
 import React from 'react';
