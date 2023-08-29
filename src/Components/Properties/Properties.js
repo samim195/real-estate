@@ -1,25 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
 import SearchBox from './SearchBox';
 import './Properties.css';
 import BoxList from './BoxList/BoxList';
 import { Grid, Paper } from '@mui/material';
-import beaufort from './BoxList/images/beaufort.png';
-import chelsea from './BoxList/images/chelsea.jpg';
-import fulham from './BoxList/images/fulham.jpeg';
-import kings from './BoxList/images/kings.jpeg';
-import laundreyworks from './BoxList/images/laundreyworks.jpeg';
-import woodberry from './BoxList/images/woodberry.png';
+import { ListingsContext } from '../../Context';
 
-const listings = [
-    {id: "sk@hotmail.com", images: [[beaufort, chelsea, fulham, kings, woodberry, laundreyworks]] },
-    {id: "tk@hotmail.com", images: [[chelsea, beaufort, kings, fulham, laundreyworks, woodberry]] },
-    {id: "pk@hotmail.com", images: [[woodberry, laundreyworks, kings, fulham, beaufort, woodberry]] },
-    {id: "ak@hotmail.com", images: [[beaufort, chelsea, fulham, kings, woodberry, laundreyworks]] },
-    {id: "ck@hotmail.com", images: [[woodberry, fulham, kings, laundreyworks, laundreyworks, woodberry]] },
-    {id: "mk@hotmail.com", images: [[laundreyworks, laundreyworks, kings, fulham, beaufort, woodberry]] }
-  ];
+
 
 function Properties() {
+  const listings = useContext(ListingsContext);
+
   return (
     <div style={{ padding: '20px' }}>
       <Grid container spacing={2}>
