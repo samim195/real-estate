@@ -4,13 +4,13 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import CustomNavBar from '../navbar/CustomNavBar';
 import '../navbar/CustomNavBar.css';
+import Typography from '@mui/material/Typography';
 
 function Header() {
   return (
-    <div className='headerposition'>
-      <h1><a className='watanname' href="/">Watan Properties</a></h1>
-      <CustomNavBar></CustomNavBar>
-    </div>
+    <Typography variant="h4" component="h1" fontWeight="bold" fontFamily="Arial, sans-serif">
+      Watan Properties
+    </Typography>
   )
 }
 
